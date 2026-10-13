@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MobiliApp",
+    "slug": "mobiliapp",
+    "scheme": "mobiliapp",
+    "version": "0.1.0",
+    "description": "Encontre o movimento certo com o que você tem: exercícios de mobilidade por equipamento, região, objetivo e tempo.",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mobiliapp.app"
+    },
+    "android": {
+      "package": "com.mobiliapp.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#DCEFE7",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
+  }
+}

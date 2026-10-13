@@ -18,3 +18,8 @@ View your app in AI Studio: https://ai.studio/apps/39463361-903b-4cda-af3d-3649f
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## MobiliApp (iOS e Android)
+
+A pasta [`mobiliapp/`](mobiliapp/) contém o MobiliApp, um app de mobilidade em Expo/React Native para iOS e Android.
+Veja o [README do MobiliApp](mobiliapp/README.md) para rodar no celular com o Expo Go e publicar nas lojas.
